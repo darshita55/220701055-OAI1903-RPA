@@ -119,7 +119,7 @@
       <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="BHANU PRIYA S &#xD;&#xA;CSE A&#xD;&#xA;220701040&#xD;&#xA;" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="840.0000000000001,1478.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="DARSHITA M &#xD;&#xA;CSE A&#xD;&#xA;220701040&#xD;&#xA;" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="840.0000000000001,1478.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
     </Sequence.Variables>
@@ -165,7 +165,7 @@
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
     <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="449.6,148" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Details" WorkbookPath="C:\Users\lbhanu\Downloads\output.xlsx" />
-    <uga:SendEmailConnections ArgumentAttachmentPaths="{x:Null}" AttachmentPaths="{x:Null}" Attachments="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ReplyTo="{x:Null}" SingleAttachment="{x:Null}" TextBody="{x:Null}" AttachmentInputMode="Builder" AuthScopesInvalid="False" Body="[string.Format(&quot;&lt;P&gt;&lt;SPAN&gt;Hello this is &lt;/SPAN&gt;&lt;SPAN&gt;Bhanu Priya&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;/P&gt;&quot;)]" ConnectionId="a6de8c7b-4611-492a-8363-a442224dbbdb" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="449.6,488" sap2010:WorkflowViewState.IdRef="SendEmailConnections_1" Importance="Normal" InputType="HTML" SaveAsDraft="False" Subject="This contains the rpa books excel" To="[New String(){&quot;220701040@rajalakshmi.edu.in&quot;}]" UseConnectionService="True">
+    <uga:SendEmailConnections ArgumentAttachmentPaths="{x:Null}" AttachmentPaths="{x:Null}" Attachments="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ReplyTo="{x:Null}" SingleAttachment="{x:Null}" TextBody="{x:Null}" AttachmentInputMode="Builder" AuthScopesInvalid="False" Body="[string.Format(&quot;&lt;P&gt;&lt;SPAN&gt;Hello this is &lt;/SPAN&gt;&lt;SPAN&gt;darshita&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;/P&gt;&quot;)]" ConnectionId="a6de8c7b-4611-492a-8363-a442224dbbdb" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="449.6,488" sap2010:WorkflowViewState.IdRef="SendEmailConnections_1" Importance="Normal" InputType="HTML" SaveAsDraft="False" Subject="This contains the rpa books excel" To="[New String(){&quot;220701055@rajalakshmi.edu.in&quot;}]" UseConnectionService="True">
       <uga:SendEmailConnections.ArgumentAttachments>
         <scg:List x:TypeArguments="InArgument(upr:IResource)" Capacity="4">
           <InArgument x:TypeArguments="upr:IResource">[LocalResource.FromPath("C:\\Users\\lbhar\\Downloads\\output.xlsx")]</InArgument>
